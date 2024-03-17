@@ -79,9 +79,24 @@ The Data folder in zenodo should be stored side by side with the src folder.
 | node_list.csv     | It contains all the nodes in the heterogeneous network in the order of drug(CTD IDs), gene(Gene Symbol), and disease(MeSH IDs), and the positions corresponding to the nodes are the indexes that end up in the sparse matrix                    |
 | NegativeSample0829.csv     | Randomly select as many negative samples as positive samples from the drug-disease association matrix <br> drug index -- disease index |
 
-## 3.3 Cross Validation and Prediction
+## 3.3 Split dataset
 
-### 3.3.1 Cross Validation
+> python src/split.py
+> Specify the path where the 5-cv dataset divisions will be saved folder-name is the set folder name, which can be changed.
+  The 1-th division is saved in folder-name01/, The 2-th division is saved in folder-name02/
+  The 3-th division is saved in folder-name03/...in a similar fashion
+  The saving_path can be specified by yourself
+
+
+
+
+
+
+
+
+## 3.4 Cross Validation and Prediction
+
+### 3.4.1 Cross Validation
 
 > python src/MdataNW.py
 
@@ -97,7 +112,7 @@ This will save models and logs in Siridataset/models and result/log.txt, respect
 
 - node_dim: Default=128. The dim for node feature matrix.
 
-### 3.3.2 Prediction
+### 3.4.2 Prediction
 
 All results are deposited in Zenodo for reproducing purpose. The raw logs can also be found in [Zenodo](https://zenodo.org/records/10826915).
 
