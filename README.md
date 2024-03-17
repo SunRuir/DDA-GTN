@@ -27,11 +27,10 @@ In this work, we first present a benchmark dataset that includes three entities:
 > This folder stores the code files.
 
 ## 2.2 Data
-The data is in zenodo, which contains the input data for Mdataset's 5 cross validation on DDA-GTN.
+> The data is in zenodo, which contains the input data for Mdataset's 5 cross validation on DDA-GTN.
 
 ## 2.3 result
-- records
-  >This folder contains the log files from the five cross-validations.
+> This folder contains the log files from the five cross-validations.
 
 # 3. Workflow
 ## 3.1 Configuration environment
@@ -53,7 +52,7 @@ This will save models and logs in Siridataset/models and result/log.txt, respect
 - node_dim: Default=64. The dim for node feature matrix.
 
 ### 3.3.2 Prediction
-Downloading casestudy data from zenodo
+All results are saved in zenodo
 ```
 https://zenodo.org/records/10826915
 ```
