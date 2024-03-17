@@ -27,10 +27,10 @@ In this work, we first present a benchmark dataset that includes three entities:
 > This folder stores the code files.
 
 ## 2.2 result
-> This folder contains the log files from the five cross-validations.
+> This folder contains the logs of the five five-fold cross-validations, the model parameters and predictions of the fifth cross-validation, the code for calculating the results and standard deviation of the average five cross-validations, and the code for drawing the AUC and ROC curves.
 
 ## 2.3 compare
-> Code for the comparison method.
+> This file contains the running code for LAGCN, LHGCE, and REDDA, which were originally sourced from the github repositories published by the corresponding publications.
 
 # 3. Workflow
 ## 3.1 Configuration environment
