@@ -50,7 +50,7 @@ pip install -r request.txt
 
 ## 3.2 Download Mdataset
 
-Mdataset is the benchmarking dataset of DDA-GTN. It can be downloaded from [Zenodo](https://zenodo.org/records/10826915).
+Mdataset is the benchmarking dataset of DDA-GTN. It can be downloaded from [Zenodo](https://zenodo.org/records/10827427).
 
 Put the dataset directory under the root directory of this project. Your project should look like this:
 
@@ -100,7 +100,7 @@ Setting the five folder paths to be read in, the path to read in needs to be the
 
 > python src/MdataNW_5cross.py
 
-This will save models and logs in Siridataset/models and result/log.txt, respectively.
+This will save models and logs in saving_path/models and saving_path/log.txt, respectively.
 
 Need to set up paths to read in datasets and disease characteristics
 
@@ -120,11 +120,11 @@ The path to read in the disease signature data needs to be the same as the path 
 
 ### 3.5.2 Prediction
 
-All results are deposited in Zenodo for reproducing purpose. The raw logs can also be found in [Zenodo](https://zenodo.org/records/10826915).
+All results are deposited in Zenodo for reproducing purpose. The raw logs can also be found in [Zenodo](https://zenodo.org/records/10827427).
 
 > python src/casestudy_Mdata.py
 
-> This will save models and logs in Siridataset/models and result/log.txt, respectively.
+> This will save models and logs in saving_path/models and saving_path/log.txt, respectively.
 
 
 
