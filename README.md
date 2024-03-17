@@ -39,7 +39,7 @@ pip install -r request.txt
 ```
 ## 3.2 Download Mdataset
 
-Mdataset is the benchmarking dataset of DDA-GTN. It can be downloaded from [Zenodo|https://zenodo.org/records/10826915].
+Mdataset is the benchmarking dataset of DDA-GTN. It can be downloaded from [Zenodo](https://zenodo.org/records/10826915).
 
 ## 3.3 Cross Validation and Prediction
 ### 3.3.1 Cross Validation
