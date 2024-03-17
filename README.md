@@ -58,12 +58,6 @@ https://zenodo.org/records/10826915
 ```
 > python src/casestudy_Mdata.py
 > This will save models and logs in Siridataset/models and result/log.txt, respectively.
-#### Optional parameters
-- epoch: Default=100. The number of training epoch.
-- lr: Default=0.005. The initial learning rate.
-- weight_decay: Default=5e-4. The weight decay for this training.
-- node_dim: Default=128. The dim for node feature matrix.
-
 
 
 
