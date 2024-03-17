@@ -26,11 +26,11 @@ In this work, we first present a benchmark dataset that includes three entities:
 ## 2.1 src
 > This folder stores the code files.
 
-## 2.2 Data
-> The data is in zenodo, which contains the input data for Mdataset's 5 cross validation on DDA-GTN.
-
-## 2.3 result
+## 2.2 result
 > This folder contains the log files from the five cross-validations.
+
+## 2.3 compare
+> Code for the comparison method.
 
 # 3. Workflow
 ## 3.1 Configuration environment
@@ -47,9 +47,9 @@ https://zenodo.org/records/10826915
 This will save models and logs in Siridataset/models and result/log.txt, respectively.
 #### Optional parameters
 - epoch: Default=100. The number of training epoch.
-- lr: Default=0.001. The initial learning rate.
+- lr: Default=0.005. The initial learning rate.
 - weight_decay: Default=5e-4. The weight decay for this training.
-- node_dim: Default=64. The dim for node feature matrix.
+- node_dim: Default=128. The dim for node feature matrix.
 
 ### 3.3.2 Prediction
 All results are saved in zenodo
@@ -60,9 +60,9 @@ https://zenodo.org/records/10826915
 > This will save models and logs in Siridataset/models and result/log.txt, respectively.
 #### Optional parameters
 - epoch: Default=100. The number of training epoch.
-- lr: Default=0.001. The initial learning rate.
+- lr: Default=0.005. The initial learning rate.
 - weight_decay: Default=5e-4. The weight decay for this training.
-- node_dim: Default=64. The dim for node feature matrix.
+- node_dim: Default=128. The dim for node feature matrix.
 
 
 
