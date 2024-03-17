@@ -40,7 +40,7 @@ pip install -r request.txt
 ```
 ## 3.2 Download Mdataset
 ```
-[zenodo链接](https://zenodo.org/records/10826915)
+https://zenodo.org/records/10826915
 ```
 ## 3.3 Cross Validation and Prediction
 ### 3.3.1 Cross Validation
@@ -55,7 +55,7 @@ This will save models and logs in Siridataset/models and result/log.txt, respect
 ### 3.3.2 Prediction
 Downloading casestudy data from zenodo
 ```
-zenodo链接
+https://zenodo.org/records/10826915
 ```
 > python src/casestudy_Mdata.py
 > This will save models and logs in Siridataset/models and result/log.txt, respectively.
