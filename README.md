@@ -28,16 +28,6 @@ In this work, we first present a benchmark dataset that includes three entities:
 
 ## 2.2 Data
 The data is in zenodo, which contains the input data for Mdataset's 5 cross validation on DDA-GTN.
-| Folder name      | Descriptions                                |
-| --------- | ----------------------------------- |
-| C_D.csv     | drug-disease association <br>  CTD IDs -- MeSH IDs                     |
-| C_G.csv     | drug-gene association <br>  CTD IDs -- Gene Symbol                     |
-| G_D.csv     | gene-disease association <br>  Gene Symbol -- MeSH IDs -- InferenceScore                    |
-| disease_feature.csv     | disease feature matrix 2447*881 matrices                     |
-| drug_feature.csv     | drug feature matrix 5975*881 matrices                     |
-| gene_feature.csv     | gene feature matrix 12582*881 matrices                     |
-| node_list.csv     | It contains all the nodes in the heterogeneous network in the order of drug(CTD IDs), gene(Gene Symbol), and disease(MeSH IDs), and the positions corresponding to the nodes are the indexes that end up in the sparse matrix                    |
-| NegativeSample.csv     | Randomly select as many negative samples as positive samples from the drug-disease association matrix <br> drug index -- disease index |
 
 ## 2.3 result
 - records
@@ -50,7 +40,7 @@ pip install -r request.txt
 ```
 ## 3.2 Download Mdataset
 ```
-zenodo链接
+[zenodo链接](https://zenodo.org/records/10826915)
 ```
 ## 3.3 Cross Validation and Prediction
 ### 3.3.1 Cross Validation
