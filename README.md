@@ -81,12 +81,9 @@ The Data folder in zenodo should be stored side by side with the src folder.
 
 ## 3.3 Split dataset
 
-> python src/split.py
-> 
-> Specify the path where the 5-cv dataset divisions will be saved folder-name is the set folder name, which can be changed.
-  The 1-th division is saved in folder-name01/, The 2-th division is saved in folder-name02/
-  The 3-th division is saved in folder-name03/...in a similar fashion
-  The saving_path can be specified by yourself
+> python src/split.py seed **
+
+To run this code you need to set the random seed and the save path, the path needs to be created manually before you run it
 
 
 
