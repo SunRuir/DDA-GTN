@@ -1,0 +1,2 @@
+on LAGCN----CPU
+Time consuming:1115.4146263599396

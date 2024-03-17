@@ -1,0 +1,8 @@
+REDDA--GPU
+10-fold cross validation
+number of epoch : 1000
+learn rate: initial = 0.005
+weight decay = 0.01
+start_time = 1709050459.7413657
+end_time = 1709059821.160551
+Time consuming:9361.41918540001
