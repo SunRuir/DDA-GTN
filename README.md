@@ -48,6 +48,16 @@ pip install -r request.txt
 
 Mdataset is the benchmarking dataset of DDA-GTN. It can be downloaded from [Zenodo](https://zenodo.org/records/10826915).
 
+Put the dataset direction under the root directory of this project. Your project should look like this:
+
+```
+/DDA-GTN
+  |-Data
+  |-src
+  |-result
+  |-compare
+```
+
 ## 3.3 Cross Validation and Prediction
 
 ### 3.3.1 Cross Validation
