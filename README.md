@@ -86,17 +86,17 @@ The Data folder in zenodo should be stored side by side with the src folder.
 To run this code you need to set the random seed and the save path, the path needs to be created manually before you run it
 
 
+## 3.4 Generate disease feature
 
+> python src/feature_ge_Cycle.py
 
+This file contains a loop to generate five five-fold cross-validated disease feature.The generated files will be stored in the feature0{i} folder. feature0{i} is a folder name that can be set when running the code, it can be changed to another name.
 
+## 3.5 Cross Validation and Prediction
 
+### 3.5.1 Cross Validation
 
-
-## 3.4 Cross Validation and Prediction
-
-### 3.4.1 Cross Validation
-
-> python src/MdataNW.py
+> python src/MdataNW_5cross.py
 
 This will save models and logs in Siridataset/models and result/log.txt, respectively.
 
@@ -110,7 +110,7 @@ This will save models and logs in Siridataset/models and result/log.txt, respect
 
 - node_dim: Default=128. The dim for node feature matrix.
 
-### 3.4.2 Prediction
+### 3.5.2 Prediction
 
 All results are deposited in Zenodo for reproducing purpose. The raw logs can also be found in [Zenodo](https://zenodo.org/records/10826915).
 
