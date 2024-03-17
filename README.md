@@ -11,7 +11,6 @@ In this work, we first present a benchmark dataset that includes three entities:
 
 - RTX 3090(24GB)
 
-
 ## 1.2 Dependency
 
 | Requirements      | Release                                |
