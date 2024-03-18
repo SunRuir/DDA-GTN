@@ -11,15 +11,15 @@ This folder contains the logs of the five five-fold cross-validations, the model
 
 4 **Mdata_ROC.png**：Run draw_ROC.py to draw the ROC curve on the Mdata.
 
-5 **Figure3.xlsx**：Run draw_aupr.py to draw the AUPR curve on the Mdata.
+5 **Figure3.xlsx**：Drawing of Figure 4_a_c.
 
-6 **Figure4_a_c.xlsx**：Run draw_aupr.py to draw the AUPR curve on the Mdata.
+6 **Figure4_a_c.xlsx**：Drawing of Figure 4_a_c.
 
-7 **Figure4_b.xlsx**：Run draw_aupr.py to draw the AUPR curve on the Mdata.
+7 **Figure4_b.xlsx**：Drawing of Figure 4_b.
 
-8 **Figure4_d.xlsx**：Run draw_aupr.py to draw the AUPR curve on the Mdata.
+8 **Figure4_d.xlsx**：Drawing of Figure 4_d.
 
-9 **figure5.xlsb**：Run draw_aupr.py to draw the AUPR curve on the Mdata.
+9 **figure5.xlsb**：Drawing of Figure 5.
 
-10 **Figure7.xlsx**：Run draw_aupr.py to draw the AUPR curve on the Mdata.
+10 **Figure7.xlsx**：Drawing of Figure 7.
 
