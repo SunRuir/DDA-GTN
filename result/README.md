@@ -11,7 +11,7 @@ This folder contains the logs of the five five-fold cross-validations, the model
 
 4 **Mdata_ROC.png**：Run draw_ROC.py to draw the ROC curve on the Mdata.
 
-5 **Figure3.xlsx**：Drawing of Figure 4_a_c.
+5 **Figure3.xlsx**：Drawing of Figure 3
 
 6 **Figure4_a_c.xlsx**：Drawing of Figure 4_a_c.
 
