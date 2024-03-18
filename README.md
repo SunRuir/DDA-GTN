@@ -76,6 +76,7 @@ The Data folder in zenodo should be stored side by side with the src folder.
 | disease_feature.csv     | disease feature matrix 2447*881 matrices                     |
 | drug_feature.csv     | drug feature matrix 5973*881 matrices                     |
 | gene_feature.csv     | gene feature matrix 12582*881 matrices                     |
+| A_CD.csv     | drug-disease association matrix  5973*2447 matrices, 5973 represents the number of drug categories, 2447 represents the number of disease categories|
 | node_list.csv     | It contains all the nodes in the heterogeneous network in the order of drug(CTD IDs), gene(Gene Symbol), and disease(MeSH IDs), and the positions corresponding to the nodes are the indexes that end up in the sparse matrix                    |
 | NegativeSample.csv     | Randomly select as many negative samples as positive samples from the drug-disease association matrix <br> drug index -- disease index |
 
