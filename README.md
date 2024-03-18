@@ -99,6 +99,8 @@ The Data folder in zenodo should be stored side by side with the src folder.
 
 ## 3.6 Cross Validation and Prediction
 
+The data for the above three steps of Mdataset has been provided in the Data folder, so you can execute this code directly.
+
 ### 3.6.1 Cross Validation
 
 > python src/MdataNW_5cross.py
